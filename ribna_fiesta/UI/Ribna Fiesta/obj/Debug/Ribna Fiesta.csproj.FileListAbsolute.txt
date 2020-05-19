@@ -1,0 +1,9 @@
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna_Fiesta.Form1.resources
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna_Fiesta.Properties.Resources.resources
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.csproj.GenerateResource.cache
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.csproj.CoreCompileInputs.cache
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\bin\Debug\Ribna Fiesta.exe.config
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\bin\Debug\Ribna Fiesta.exe
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\bin\Debug\Ribna Fiesta.pdb
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.exe
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.pdb
