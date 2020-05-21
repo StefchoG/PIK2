@@ -12,6 +12,12 @@ namespace Ribna_Fiesta
 {
     public partial class Form1 : Form
     {
+        class ComboItem
+        {
+            public int ID { get; set; }
+            public string Text { get; set; }
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -26,5 +32,6 @@ namespace Ribna_Fiesta
         {
             MessageBox.Show("Hello from  button largest!", "Largest Button!", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
     }
 }
