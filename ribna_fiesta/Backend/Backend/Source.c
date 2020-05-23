@@ -112,6 +112,14 @@ void writeResultToBinary(char* filename, Max_t maximum) {
     }
 }
 
+void writeArrayToBinary(char* filename, int* array, int size) {
+    const FILE* fp_b = fopen(filename, "wb");
+    if (NULL != fp_b) {
+        size_t fwriteresult = fwrite(array, sizeof(int), size, fp_b);
+        fclose(fp_b);
+    }
+}
+
 //used as an entry point for the UI from the hightest expense button
 //firsts read everything from the file then iterates the list and
 //sums the expenses by type and frees the memmory for the next
@@ -122,9 +130,9 @@ EXPORT void calculateHighestExpense() {
     float sum[10] = {0};
 
     while (head != NULL) {
-        sum[head->expense->reason] += head->expense->value;
+        sum[head->expense->reason - 1] += head->expense->value;
         
-        Node_t* swap = head->next;
+        Node_t* swap = head;
         head = head->next;
         free(swap->expense);
         free(swap);
@@ -136,10 +144,28 @@ EXPORT void calculateHighestExpense() {
     for (int i = 0; i < 10; i++) {
         if (sum[i] >= maximum.value) {
             maximum.value = sum[i];
-            maximum.id = i;
+            maximum.id = i + 1;
         }
     }
 
     writeResultToBinary(output_url, maximum);
 
+}
+
+EXPORT void calculateMonthlyExpense() {
+    parseFileToLinkedList(input_url, &head);
+    float sum[12] = { 0 };
+
+    while (head != NULL) {
+        int dd, mm, yy;
+        integerToDate(&dd, &mm, &yy, head->expense->date);
+        sum[mm - 1] += head->expense->value;
+
+        Node_t* swap = head;
+        head = head->next;
+        free(swap->expense);
+        free(swap);
+    }
+
+    writeArrayToBinary(output_url, sum, 12);
 }

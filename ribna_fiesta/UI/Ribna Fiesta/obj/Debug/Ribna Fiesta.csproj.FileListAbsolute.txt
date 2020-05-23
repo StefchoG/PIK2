@@ -7,3 +7,4 @@ C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\bin\Debug\Ribna Fiesta.exe
 C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\bin\Debug\Ribna Fiesta.pdb
 C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.exe
 C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.pdb
+C:\tu_ribna_fiesta\PIK2\ribna_fiesta\UI\Ribna Fiesta\obj\Debug\Ribna Fiesta.csprojAssemblyReference.cache
