@@ -4,8 +4,7 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-//EXPORT void readFromUnaryFile(char* file_name, char* mode);
-//EXPORT void writeToBinaryFile(char* file_name, char* mode);
-
+EXPORT void calculateHighestExpense();
+EXPORT void calculateMonthlyExpense();
 
 #endif
